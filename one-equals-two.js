@@ -7,6 +7,7 @@
 /* eslint-disable no-unused-vars, no-console*/
 let one = 1;
 let two = 2;
+
 if (one = two) {
     console.log('This should never print!');
     // Well, it does!
