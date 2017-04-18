@@ -1,0 +1,17 @@
+{
+  "name": "lmfao-examples",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm run lint",
+    "test": "echo \"Unit tests go here!\"",
+    "lint": "eslint *.js",
+    "lint-pretty": "eslint --format table *.js"
+  },
+  "author": "Justin Ray",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.19.0"
+  }
+}
